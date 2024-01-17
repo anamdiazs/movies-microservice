@@ -27,7 +27,7 @@ public class ActoresController {
     }
     @GetMapping("/actores/pais/{pais}")
     public List<Actor> buscarActorPorPais(@PathVariable("pais") String pais) {
-        return actoresService.buscarActorPorPais(pais);
+        return actoresService.buscarActorPorNombre(pais);
     }
 
     @PostMapping("/actores")

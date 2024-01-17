@@ -43,7 +43,8 @@ public class PeliculasController {
     public void guardarPelicula(@RequestBody Pelicula pelicula) {
         peliculasService.guardarPelicula(pelicula);
     }
-    @PutMapping("/peliculas/{idPelicula}")
+    @PutMapping("/peliculas/{idPelicula}" +
+            "")
     public void actualizarPelicula(@RequestBody Pelicula pelicula) {
         peliculasService.actualizarPelicula(pelicula);
     }

@@ -4,6 +4,7 @@ import es.uah.peliculas.model.Pelicula;
 import es.uah.peliculas.service.IPeliculasService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.ui.Model;
 
 import java.util.List;
 
